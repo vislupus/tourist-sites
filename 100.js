@@ -470,7 +470,7 @@ var bulgaria = {
             "properties": {
                 "title": "Исторически музей - Видин",
                 "number": "13.",
-                "category": "maybe"
+                "category": "yes"
             },
             "geometry": {
                 "type": "Point",
@@ -1060,7 +1060,7 @@ var bulgaria = {
         {
             "type": "Feature",
             "properties": {
-                "title": "Стобски пирамиди -  	Стоб",
+                "title": "Стобски пирамиди - Стоб",
                 "number": "28а.",
                 "category": "maybe"
             },
@@ -1796,7 +1796,7 @@ var bulgaria = {
         {
             "type": "Feature",
             "properties": {
-                "title": "Тракийски град Хелис – с. Свещари",
+                "title": "Тракийски град Хелис – с.Свещари",
                 "number": "49.",
                 "category": "maybe"
             },
@@ -2390,7 +2390,7 @@ var bulgaria = {
             "properties": {
                 "title": "Тракийски култов комплекс - Старосел",
                 "number": "67.",
-                "category": "maybe"
+                "category": "yes"
             },
             "geometry": {
                 "type": "Point",
@@ -2422,7 +2422,7 @@ var bulgaria = {
             "properties": {
                 "title": "Национален археологически институт с музей - София",
                 "number": "68.",
-                "category": "maybe"
+                "category": "yes"
             },
             "geometry": {
                 "type": "Point",
@@ -2436,7 +2436,7 @@ var bulgaria = {
         {
             "type": "Feature",
             "properties": {
-                "title": "68а. Национален политехнически музей - София",
+                "title": "Национален политехнически музей - София",
                 "number": "68а.",
                 "category": "maybe"
             },
@@ -2582,7 +2582,7 @@ var bulgaria = {
             "properties": {
                 "title": "Тракийска куполна гробница - Мезек",
                 "number": "72а.",
-                "category": "maybe"
+                "category": "yes"
             },
             "geometry": {
                 "type": "Point",
@@ -2598,7 +2598,7 @@ var bulgaria = {
             "properties": {
                 "title": "Средновековна крепост - Мезек",
                 "number": "72а.",
-                "category": "maybe"
+                "category": "yes"
             },
             "geometry": {
                 "type": "Point",
@@ -2614,7 +2614,7 @@ var bulgaria = {
             "properties": {
                 "title": "Антична римска „Вила Армира“ - Ивайловград",
                 "number": "72б.",
-                "category": "maybe"
+                "category": "yes"
             },
             "geometry": {
                 "type": "Point",
@@ -2630,7 +2630,7 @@ var bulgaria = {
             "properties": {
                 "title": "Исторически музей - Ивайловград",
                 "number": "72в.",
-                "category": "maybe"
+                "category": "yes"
             },
             "geometry": {
                 "type": "Point",

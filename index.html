@@ -4,12 +4,8 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
-   integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
-   crossorigin=""/>
-	<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
-   integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
-   crossorigin=""></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
     <style>
         html {
             height: 100%;
@@ -39,7 +35,6 @@
             text-align: center;
             margin-bottom: 10px;
         }
-
     </style>
 
 </head>
@@ -50,8 +45,8 @@
     <script>
         var map = L.map('map').setView([42.73356, 25.4437248], 8.25);
 
-        L.tileLayer('https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}{r}.png', {
-            attribution: '<a href="https://wikimediafoundation.org/wiki/Maps_Terms_of_Use">Wikimedia</a>',
+        //https://leaflet-extras.github.io/leaflet-providers/preview/
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
             minZoom: 1,
             maxZoom: 18
         }).addTo(map);
@@ -68,10 +63,13 @@
             });
 
             if (feature.properties.category == 'yes') {
+                //                console.log(feature.properties.title)
                 visited.addLayer(layer);
             } else if (feature.properties.category == 'maybe') {
+                //                console.log(feature.properties.title)
                 plans.addLayer(layer);
             } else {
+                //                console.log(feature.properties.title)
                 other.addLayer(layer);
             }
         }
@@ -121,8 +119,5 @@
         }).addTo(map);
 
         document.querySelector(".leaflet-control-layers-base").innerHTML = "<b>Карта на 100-те туристически обекта на България</b>";
-
     </script>
-</body>
-
-</html>
+</body></html>
