@@ -1078,7 +1078,7 @@ var bulgaria = {
             "properties": {
                 "title": "Хижа „Скакавица“ - Рила",
                 "number": "29.",
-                "category": "maybe"
+                "category": "yes"
             },
             "geometry": {
                 "type": "Point",
@@ -1238,7 +1238,7 @@ var bulgaria = {
             "properties": {
                 "title": "Пещера Съева дупка - Брестница",
                 "number": "33.",
-                "category": "maybe"
+                "category": "yes"
             },
             "geometry": {
                 "type": "Point",
@@ -1412,7 +1412,7 @@ var bulgaria = {
         {
             "type": "Feature",
             "properties": {
-                "title": "Крепост Перистера - Пещера",
+                "title": "Крепост „Перистера“ - Пещера",
                 "number": "37а.",
                 "category": "maybe"
             },
@@ -1478,7 +1478,7 @@ var bulgaria = {
             "properties": {
                 "title": "Регионален исторически музей - Плевен",
                 "number": "40.",
-                "category": "maybe"
+                "category": "yes"
             },
             "geometry": {
                 "type": "Point",
@@ -1494,7 +1494,7 @@ var bulgaria = {
             "properties": {
                 "title": "Мавзолей-параклис „Св.Георги Победоносец“ - Плевен“",
                 "number": "40.",
-                "category": "no"
+                "category": "yes"
             },
             "geometry": {
                 "type": "Point",
@@ -1510,7 +1510,7 @@ var bulgaria = {
             "properties": {
                 "title": "Панорама „Плевенска епопея 1877 г.“ - Плевен ",
                 "number": "40.",
-                "category": "maybe"
+                "category": "yes"
             },
             "geometry": {
                 "type": "Point",
@@ -1702,7 +1702,7 @@ var bulgaria = {
             "properties": {
                 "title": "Бачковски манастир - Асеновград",
                 "number": "47.",
-                "category": "no"
+                "category": "yes"
             },
             "geometry": {
                 "type": "Point",
@@ -1734,7 +1734,7 @@ var bulgaria = {
             "properties": {
                 "title": "Археологически резерват „Абритус“ - Разград",
                 "number": "48.",
-                "category": "maybe"
+                "category": "yes"
             },
             "geometry": {
                 "type": "Point",
@@ -1766,7 +1766,7 @@ var bulgaria = {
             "properties": {
                 "title": "Историко-археологически резерват „Сборяново“ - Исперих",
                 "number": "49.",
-                "category": "maybe"
+                "category": "yes"
             },
             "geometry": {
                 "type": "Point",
@@ -1780,9 +1780,9 @@ var bulgaria = {
         {
             "type": "Feature",
             "properties": {
-                "title": "Демир баба теке - Исперих",
+                "title": "Демир Баба теке - Исперих",
                 "number": "49.",
-                "category": "maybe"
+                "category": "yes"
             },
             "geometry": {
                 "type": "Point",
@@ -1798,7 +1798,7 @@ var bulgaria = {
             "properties": {
                 "title": "Тракийски град Хелис – с.Свещари",
                 "number": "49.",
-                "category": "maybe"
+                "category": "yes"
             },
             "geometry": {
                 "type": "Point",
@@ -1924,7 +1924,7 @@ var bulgaria = {
         {
             "type": "Feature",
             "properties": {
-                "title": "Природен резерват Сребърна - Сребърна",
+                "title": "Природен резерват „Сребърна“ - Сребърна",
                 "number": "52.",
                 "category": "yes"
             },
@@ -2278,7 +2278,7 @@ var bulgaria = {
             "properties": {
                 "title": "Часовникова кула - Етрополе",
                 "number": "63.",
-                "category": "maybe"
+                "category": "yes"
             },
             "geometry": {
                 "type": "Point",
@@ -2644,7 +2644,7 @@ var bulgaria = {
         {
             "type": "Feature",
             "properties": {
-                "title": "Дом-музей „Пеньо Пенев“ - град Димитровград",
+                "title": "Дом-музей „Пеньо Пенев“ - Димитровград",
                 "number": "73.",
                 "category": "no"
             },
@@ -2982,7 +2982,7 @@ var bulgaria = {
             "properties": {
                 "title": "Пещера Ухловица - Ухловица",
                 "number": "84а.",
-                "category": "maybe"
+                "category": "yes"
             },
             "geometry": {
                 "type": "Point",
@@ -3044,9 +3044,9 @@ var bulgaria = {
         {
             "type": "Feature",
             "properties": {
-                "title": "Етнографски Ареален Комплекс Златоград",
+                "title": "Етнографски Ареален Комплекс - Златоград",
                 "number": "86.",
-                "category": "maybe"
+                "category": "yes"
             },
             "geometry": {
                 "type": "Point",
@@ -3252,7 +3252,7 @@ var bulgaria = {
         {
             "type": "Feature",
             "properties": {
-                "title": "Храм-паметник „Рождество Христово“ - град Шипка",
+                "title": "Храм-паметник „Рождество Христово“ - Шипка",
                 "number": "92.",
                 "category": "yes"
             },
